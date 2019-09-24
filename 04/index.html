@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>圖層的資訊視窗</title>
+
+    <!-- load jquery 3.x -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <!-- load open layers api -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js">
+    </script>
+
+    <!-- ol-ext -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Viglino/ol-ext/master/dist/ol-ext.min.css" />
+    <script type="text/javascript" src="https://cdn.rawgit.com/Viglino/ol-ext/master/dist/ol-ext.min.js"></script>
+
+    <!-- load custom style -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- load custom js -->
+    <script src='./lib/ol-layer-NLSCLayer.js'></script>
+    <script src='./lib/ol-layer-ArcGISFeatureLayer.js'></script>
+    <script src='./main.js'></script>
+</head>
+<body>
+    <h1>圖層的資訊視窗</h1>
+    <div id="map"></div>
+</body>
+</html>

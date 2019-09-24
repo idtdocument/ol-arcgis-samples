@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Open Layers 5 起手式</title>
+
+    <!-- jQuery 3.x -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js">
+    </script>
+    
+    <!-- custom styles -->
+    <style>
+        html, body, #view {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <!-- main js -->
+    <script>
+        window.onload = function (){
+            /****************** 
+             load modules
+             ******************/
+            var Map = ol.Map; // import Map from 'ol/Map';
+            var View = ol.View; // import View from 'ol/View';
+            var TileLayer = ol.layer.Tile; // import TileLayer from 'ol/layer/Tile';
+            var OSM  = ol.source.OSM; // import OSM from 'ol/source/OSM';
+            var {fromLonLat} = ol.proj; // import {fromLonLat} from 'ol/proj';
+
+            // load Open Stree Map as basemap
+            var basemap = new TileLayer({
+                source: new OSM()
+            });
+
+            // 2D view
+            var mapView = new View({
+                center: fromLonLat([121, 24], 'EPSG:3857'),
+                zoom  : 7
+            });
+
+            // create map container
+            var map = new Map({
+                target: 'map',
+                layers: [basemap],
+                view  : mapView
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
