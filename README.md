@@ -1,8 +1,8 @@
 # ol-arcgis-example
 
-## 範例1. Open Layers 5 起手式 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/src/01)
+## 範例1. Open Layers 5 起手式 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/01)
 
-## 範例2. 加入國土測繪底圖 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/src/02)
+## 範例2. 加入國土測繪底圖 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/02)
 
 	#### 國土測繪中心圖磚服務
 
@@ -28,10 +28,10 @@
 	4. 呼叫地圖方法addLayer加入圖磚圖層，例如：
 	   ```map.addLayer(nlscLayer);```
 
-## 範例3. 加入ArcGIS Feature Layer [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/src/03)
+## 範例3. 加入ArcGIS Feature Layer [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/03)
 
-## 範例4. 圖層的資訊視窗 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/src/04)
+## 範例4. 圖層的資訊視窗 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/04)
 
-## 範例5. ArcGIS圖層 屬性查詢 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/src/05)
+## 範例5. ArcGIS圖層 屬性查詢 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/05)
 
-## 範例6. ArcGIS圖層 屬性查詢 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/src/06)
+## 範例6. ArcGIS圖層 屬性查詢 [【來去瞧瞧】](https://idtdocument.github.io/ol-arcgis-samples/06)
